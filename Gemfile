@@ -28,6 +28,7 @@ gem 'omniauth-twitter'
 gem 'whenever', require: false
 gem 'react-rails'
 gem 'responders'
+gem 'jquery-rails'
 
 
 # Use CoffeeScript for .coffee assets and views
