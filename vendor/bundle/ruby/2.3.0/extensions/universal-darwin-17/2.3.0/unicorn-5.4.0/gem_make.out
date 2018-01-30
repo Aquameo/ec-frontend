@@ -1,0 +1,26 @@
+current directory: /Users/chiketsumei/Documents/SandBox/Project_201801/ec_frontend/vendor/bundle/ruby/2.3.0/gems/unicorn-5.4.0/ext/unicorn_http
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180130-4207-1ht60l0.rb extconf.rb
+checking for SIZEOF_OFF_T in ruby.h... yes
+checking for SIZEOF_SIZE_T in ruby.h... yes
+checking for SIZEOF_LONG in ruby.h... yes
+checking for rb_str_set_len() in ruby.h... yes
+checking for rb_hash_clear() in ruby.h... yes
+checking for gmtime_r() in time.h... yes
+creating Makefile
+
+current directory: /Users/chiketsumei/Documents/SandBox/Project_201801/ec_frontend/vendor/bundle/ruby/2.3.0/gems/unicorn-5.4.0/ext/unicorn_http
+make "DESTDIR=" clean
+
+current directory: /Users/chiketsumei/Documents/SandBox/Project_201801/ec_frontend/vendor/bundle/ruby/2.3.0/gems/unicorn-5.4.0/ext/unicorn_http
+make "DESTDIR="
+compiling httpdate.c
+compiling unicorn_http.c
+linking shared-object unicorn_http.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+
+current directory: /Users/chiketsumei/Documents/SandBox/Project_201801/ec_frontend/vendor/bundle/ruby/2.3.0/gems/unicorn-5.4.0/ext/unicorn_http
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unicorn_http.bundle ./.gem.20180130-4207-6iheo0
