@@ -24,4 +24,7 @@ test:
   database: ec_frontend_test
 production:
   <<: *default
+  username: root
+  password: mypassword
+  host: ec-frontend-mysql.cwigvbmheedl.us-east-2.rds.amazonaws.com
   database: ec_frontend_production
