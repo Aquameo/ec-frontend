@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:Aquameo/ec-frontend.git"
 set :branch, 'master'
 
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/ec-frontend'
+set :deploy_to, '/var/www/rails/ec-frontend'
 
 # シンボリックリンクをはるファイル。(※後述)
 set :linked_files, fetch(:linked_files, []).push('config/settings.yml')
